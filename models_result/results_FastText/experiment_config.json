@@ -1,0 +1,24 @@
+{
+  "model": "FastText",
+  "seed": 42,
+  "train_file_sha256": "faa106fc35a4122349121549d7073573f07a882204a7acfcce3689fdfaacb7bb",
+  "test_file_sha256": "76038e40d06cb36818e982291c946ec62aaa778a02f8867da7172de15db0c988",
+  "training_records": 19297,
+  "test_records": 4825,
+  "python": "3.12.8",
+  "sklearn": "1.8.0",
+  "settings": {
+    "config": {
+      "lr": 0.5,
+      "epoch": 25,
+      "wordNgrams": 2,
+      "dim": 100,
+      "loss": "softmax",
+      "thread": 4,
+      "minn": 0,
+      "maxn": 0
+    },
+    "preprocessing": "Collapse whitespace; no lowercasing",
+    "note": "TF-IDF settings and SEED do not configure FastText; multithreaded training may vary"
+  }
+}

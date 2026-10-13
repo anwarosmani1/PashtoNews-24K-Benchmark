@@ -1,0 +1,13 @@
+                   precision    recall  f1-score   support
+
+          economy     0.9305    0.9707    0.9502      1504
+           health     0.9704    0.9491    0.9597       865
+        migration     0.9108    0.7814    0.8412       183
+politics_security     0.9229    0.9319    0.9274      1131
+ religion_culture     0.9509    0.7868    0.8611       197
+     science_tech     0.8932    0.9183    0.9056       355
+           sports     0.9880    0.9763    0.9821       590
+
+         accuracy                         0.9399      4825
+        macro avg     0.9381    0.9021    0.9182      4825
+     weighted avg     0.9403    0.9399    0.9394      4825

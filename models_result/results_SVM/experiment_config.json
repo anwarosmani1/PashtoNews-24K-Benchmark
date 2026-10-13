@@ -1,0 +1,38 @@
+{
+  "model": "SVM",
+  "seed": 42,
+  "train_file_sha256": "faa106fc35a4122349121549d7073573f07a882204a7acfcce3689fdfaacb7bb",
+  "test_file_sha256": "76038e40d06cb36818e982291c946ec62aaa778a02f8867da7172de15db0c988",
+  "training_records": 19297,
+  "test_records": 4825,
+  "python": "3.12.8",
+  "sklearn": "1.8.0",
+  "settings": {
+    "max_features": 10000,
+    "actual_vocabulary_size": 10000,
+    "tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 5,
+      "max_df": 0.8
+    },
+    "feature_extraction_seconds": 39.76210500000161,
+    "classifier": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": "auto",
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 10000,
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": 42,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "selection_rule": "Fixed at 10000 based on previous validation comparison"
+  }
+}

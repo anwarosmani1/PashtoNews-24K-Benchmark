@@ -1,0 +1,45 @@
+# Ignore a specific large data file
+articles_deduplicated.jsonl
+articles_final_cleaned.jsonl
+train_data.csv
+test_data.csv
+train.txt
+test.txt
+xlmr_shared_splits_colab_Runned_version.ipynb
+TF-IDFlogisticRegression_with_description.py
+printingMostImportantWords.py
+merge_and_count.py
+ShortPipline.py
+generatingMethodologyFigures.py
+DatasetInformationBySource.py
+
+#excluding some models results
+#fasttext
+fasttext_train.txt
+fasttext.bin
+test_predictions.csv
+
+#LR
+LR.joblib
+tfidf_vectorizer.joblib
+
+#MLP
+MLP.joblib
+
+#SVM
+SVM.joblib
+
+
+# Ignore an entire folder (add a slash at the end)
+figures/
+Datasets/
+collection
+# Ignore all files of a specific type (using an asterisk)
+*.png
+*.zip
+*.log
+
+# Ignore Python environment folders (if you use Jupyter/Python)
+__pycache__/
+.ipynb_checkpoints/
+venv/

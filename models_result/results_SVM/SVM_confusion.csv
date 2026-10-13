@@ -1,0 +1,8 @@
+,economy,health,migration,politics_security,religion_culture,science_tech,sports
+economy,1455,12,2,25,2,7,1
+health,14,829,0,5,0,16,1
+migration,9,1,142,30,0,1,0
+politics_security,55,5,11,1053,2,3,2
+religion_culture,12,2,1,21,156,4,1
+science_tech,9,17,0,7,4,316,2
+sports,1,1,0,3,0,6,579

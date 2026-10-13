@@ -1,0 +1,10 @@
+{
+  "lr": 0.5,
+  "epoch": 25,
+  "wordNgrams": 2,
+  "dim": 100,
+  "loss": "softmax",
+  "thread": 4,
+  "minn": 0,
+  "maxn": 0
+}
